@@ -1,0 +1,17 @@
+;; This is a Guix channel.
+
+(channel
+  (version 0)
+  (news-file "etc/news.scm")
+  (keyring-reference "keyring")
+  (url "https://github.com/shen390s/personal-guix.git") ;the primary URL
+  (introduction
+     (make-channel-introduction
+        "03de3c669b6974de0412ebdd2920efc3764ba956"
+        (openpgp-fingerprint
+           "8554 DA2B B435 9D60 70E6 D0FD E54C 4A15 359E A026")))
+  (dependencies
+     (channel
+        (name 'guix)
+            (url "https://git.savannah.gnu.org/git/guix.git")
+            (branch "master"))))
