@@ -7,7 +7,7 @@
   (url "https://github.com/shen390s/personal-guix.git") ;the primary URL
   (introduction
      (make-channel-introduction
-        "4b89a44847ce0082f5bed1d0c1115f1b1a4c8cba"
+        "2cf1a2981988802b80f62042629ecd79d23248e3"
         (openpgp-fingerprint
            "8554 DA2B B435 9D60 70E6 D0FD E54C 4A15 359E A026")))
   (dependencies
